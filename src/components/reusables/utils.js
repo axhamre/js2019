@@ -1,3 +1,3 @@
 import { Dimensions } from 'react-native'
 
-export const isMobile = () => Dimensions.get('window').width < 321
+export const isMobile = () => Dimensions.get('window').width < 481
