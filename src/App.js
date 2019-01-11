@@ -1,40 +1,22 @@
-import React, { Component } from 'react'
-import { StyleSheet, View } from 'react-native'
+import React from 'react'
 
-import TopSection from './TopSection'
-import Introduction from './Introduction'
-import Common from './Common'
-import Henric from './Henric'
-import Lo from './Lo'
-import BottomSection from './BottomSection'
+import TopSection from './components/TopSection'
+import Introduction from './components/Introduction'
+import Common from './components/Common'
+import Henric from './components/Henric'
+import Lo from './components/Lo'
+import BottomSection from './components/BottomSection'
+import PageContainer from './components/PageContainer'
 
-class App extends Component {
-  render() {
-    return (
-      <View style={styles.wrapper}>
-        <View style={styles.inner}>
-          <TopSection />
-          <Introduction />
-          <Common />
-          <Henric />
-          <Lo />
-          <BottomSection />
-        </View>
-      </View>
-    )
-  }
-}
-
-const styles = StyleSheet.create({
-  wrapper: {
-    paddingLeft: 120,
-    paddingTop: 60,
-    backgroundColor: '#F0F4F7',
-    minHeight: '100vh',
-  },
-  inner: {
-    maxWidth: 720,
-  },
-})
+const App = () => (
+  <PageContainer>
+    <TopSection />
+    <Introduction />
+    <Common />
+    <Henric />
+    <Lo />
+    <BottomSection />
+  </PageContainer>
+)
 
 export default App
