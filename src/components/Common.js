@@ -5,10 +5,10 @@ import UnderscoreText from './reusables/UnderscoreText'
 
 export default () => (
   <Content>
-    We are comfortable handling full scope of projects (frontend + backend).
-    Prefer <UnderscoreText>React-friendly</UnderscoreText> tech such as React
-    Native, Redux, GraphQL. Working tight with humongous companies and tiny
-    startups. We fall for brave visions, superb user experiences and digital
-    greatness.
+    We can comfortably handle the full scope of a project (frontend, backend,
+    other ends). We prefer <UnderscoreText>React-friendly</UnderscoreText> tech
+    such as React Native, Jest, Babel, Redux, GraphQL. We work with unicorn
+    Silicon Valley companies as well as tiny garage startups. We fall for brave
+    visions, superb user experiences and digital greatness.
   </Content>
 )

@@ -15,7 +15,7 @@ export default ({ style, ...rest }) => (
 const styles = StyleSheet.create({
   text: {
     fontFamily: 'Circularstd, sans-serif',
-    fontSize: '22px',
+    fontSize: 22,
     fontWeight: '300',
     lineHeight: 'normal',
     color: '#21263B',
