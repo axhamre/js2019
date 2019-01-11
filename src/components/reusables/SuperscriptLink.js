@@ -18,7 +18,8 @@ export default props => (
 const styles = StyleSheet.create({
   link: {
     cursor: 'pointer',
-    verticalAlign: 'super',
     fontSize: 16,
+    position: 'relative',
+    top: '-0.5em',
   },
 })

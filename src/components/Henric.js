@@ -17,7 +17,9 @@ const ytLinks = [
 const blogLinks = ['https://medium.com/@trotzig']
 
 export const renderLink = ({ url, index }) => (
-  <SuperscriptLink href={url}>[{index}]</SuperscriptLink>
+  <SuperscriptLink key={index} href={url}>
+    [{index}]
+  </SuperscriptLink>
 )
 
 export default () => (
