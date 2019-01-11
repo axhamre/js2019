@@ -5,9 +5,9 @@ import Content from './Content'
 import { renderLink } from './Henric'
 
 const siteLinks = [
-  'https://calbird.com/',
   'https://skillbreak.com/',
-  'https://app.habitud.se/',
+  'https://calbird.com/',
+  'https://www.habitud.se/pages/habitudpro',
 ]
 
 export default () => (

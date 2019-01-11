@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   },
   text: {
     marginTop: 20,
-    fontWeight: '600',
+    fontFamily: 'latobold',
   },
   desktopText: {
     fontSize: 60,
