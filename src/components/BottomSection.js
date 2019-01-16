@@ -12,7 +12,7 @@ export default () => {
       <BaseText style={{ marginBottom: 5 }}>Published {time}.</BaseText>
       <BaseText>
         <BaseLink href="mailto:henric.trotzig@gmail.com">Email.</BaseLink>{' '}
-        <BaseLink target="_blank" href="https://github.com/hundsim/js2019">
+        <BaseLink target="_blank" href="https://github.com/axhamre/js2019">
           Source.
         </BaseLink>{' '}
       </BaseText>
